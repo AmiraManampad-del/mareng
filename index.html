@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Amira B. Manampad — Information Systems Student</title>
+  <meta name="description" content="Portfolio of Amira B. Manampad, Information Systems student focused on UI/UX design, system development, and data management.">
+
+  <!-- Fonts: Space Grotesk (display), Source Serif 4 (body), IBM Plex Mono (labels/data) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Source+Serif+4:ital,wght@0,400;0,500;0,600;1,400&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ============ SKIP LINK (ACCESSIBILITY) ============ -->
+  <a class="skip-link" href="#home">Skip to main content</a>
+
+  <!-- ============ NAVIGATION ============ -->
+  <header class="nav" id="nav">
+    <div class="nav__inner">
+      <a href="#home" class="nav__brand" aria-label="Amira B. Manampad, home">
+        <span class="nav__brand-mark">ABM</span>
+        <span class="nav__brand-text">Manampad</span>
+      </a>
+
+      <nav class="nav__links" id="navLinks" aria-label="Primary">
+        <a href="#home" class="nav__link" data-index="00"><span>Home</span></a>
+        <a href="#about" class="nav__link" data-index="01"><span>About</span></a>
+        <a href="#education" class="nav__link" data-index="02"><span>Education</span></a>
+        <a href="#skills" class="nav__link" data-index="03"><span>Skills</span></a>
+        <a href="#projects" class="nav__link" data-index="04"><span>Projects</span></a>
+        <a href="#contact" class="nav__link" data-index="05"><span>Contact</span></a>
+      </nav>
+
+      <button class="nav__toggle" id="navToggle" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="navLinks">
+        <span class="nav__toggle-bar"></span>
+        <span class="nav__toggle-bar"></span>
+        <span class="nav__toggle-bar"></span>
+      </button>
+    </div>
+  </header>
+
+  <main id="home">
+
+    <!-- ============ HERO ============ -->
+    <section class="hero" aria-label="Introduction">
+      <div class="hero__grid" aria-hidden="true"></div>
+      <div class="hero__inner">
+
+        <div class="hero__content reveal">
+          <p class="eyebrow"><span class="eyebrow__code">SEC. 00</span> Information Systems Student</p>
+          <h1 class="hero__name">Amira B.<br><span class="hero__name-accent">Manampad</span></h1>
+          <p class="hero__tagline">Building a strong academic and professional foundation.</p>
+          <p class="hero__intro">I am an Information Systems student with an interest in UI/UX design, system development, and data management.</p>
+
+          <div class="hero__actions">
+            <a href="#education" class="btn btn--primary">View My Education</a>
+            <a href="#contact" class="btn btn--ghost">Contact Me</a>
+          </div>
+        </div>
+
+        <div class="hero__figure reveal reveal--delay-1">
+          <div class="frame">
+            <div class="frame__corner frame__corner--tl" aria-hidden="true"></div>
+            <div class="frame__corner frame__corner--tr" aria-hidden="true"></div>
+            <div class="frame__corner frame__corner--bl" aria-hidden="true"></div>
+            <div class="frame__corner frame__corner--br" aria-hidden="true"></div>
+            <img
+              src="photo_6330135964826669303_y.jpg"
+              alt="Portrait of Amira B. Manampad"
+              class="frame__img"
+              onerror="this.onerror=null;this.src='data:image/svg+xml;utf8,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 400 480%22%3E%3Crect width=%22400%22 height=%22480%22 fill=%22%23122A4D%22/%3E%3Ccircle cx=%22200%22 cy=%22190%22 r=%2270%22 fill=%22%23F6F5F1%22 fill-opacity=%220.15%22/%3E%3Cpath d=%22M90 420c10-70 70-110 110-110s100 40 110 110%22 fill=%22%23F6F5F1%22 fill-opacity=%220.15%22/%3E%3C/svg%3E'"
+            >
+            <span class="frame__tag">FIG. 01 — PORTRAIT</span>
+          </div>
+        </div>
+
+      </div>
+      <a href="#about" class="hero__scroll" aria-label="Scroll to About section">
+        <span class="hero__scroll-line"></span>
+      </a>
+    </section>
+
+    <!-- ============ ABOUT ============ -->
+    <section class="section" id="about">
+      <div class="section__inner">
+        <p class="eyebrow"><span class="eyebrow__code">SEC. 01</span> About</p>
+        <h2 class="section__title">Who I am, and where I'm headed.</h2>
+
+        <div class="about__grid">
+          <article class="card reveal">
+            <span class="card__tag">01 — IDENTITY</span>
+            <h3 class="card__title">Who I Am</h3>
+            <p class="card__text">I am a motivated learner with a strong interest in personal and academic development. I enjoy working with purpose, staying organized, and turning challenges into opportunities for growth.</p>
+          </article>
+
+          <article class="card reveal reveal--delay-1">
+            <span class="card__tag">02 — DIRECTION</span>
+            <h3 class="card__title">My Goal</h3>
+            <p class="card__text">My goal is to build a career rooted in knowledge, professionalism, and service by combining academic excellence with practical experience and strong values.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ EDUCATION ============ -->
+    <section class="section section--muted" id="education">
+      <div class="section__inner">
+        <p class="eyebrow"><span class="eyebrow__code">SEC. 02</span> Education</p>
+        <h2 class="section__title">Academic timeline.</h2>
+
+        <div class="timeline">
+          <div class="timeline__line" aria-hidden="true"></div>
+
+          <div class="timeline__item reveal">
+            <div class="timeline__node" aria-hidden="true"></div>
+            <div class="timeline__card">
+              <span class="timeline__year">2018 — 2024 <em>(edit year)</em></span>
+              <h3 class="timeline__title">Lupon Vocational Highschool</h3>
+              <p class="timeline__text">Completed Lupon Vocational Highschool with strong academic performance and active participation in school activities.</p>
+            </div>
+          </div>
+
+          <div class="timeline__item reveal reveal--delay-1">
+            <div class="timeline__node" aria-hidden="true"></div>
+            <div class="timeline__card">
+              <span class="timeline__year">2024 — Present <em>(edit year)</em></span>
+              <h3 class="timeline__title">Davao del Norte State College — Information Systems</h3>
+              <p class="timeline__text">Currently pursuing Davao del Norte State College in Information Systems, developing critical thinking, communication, and technical skills.</p>
+            </div>
+          </div>
+
+          <div class="timeline__item reveal reveal--delay-2">
+            <div class="timeline__node" aria-hidden="true"></div>
+            <div class="timeline__card">
+              <span class="timeline__year">Relevant Coursework</span>
+              <h3 class="timeline__title">Core Subject Areas</h3>
+              <ul class="timeline__list">
+                <li>Communication</li>
+                <li>Research</li>
+                <li>Problem Solving</li>
+                <li>Leadership</li>
+                <li>Digital Skills</li>
+                <li>Presentation Development</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ SKILLS ============ -->
+    <section class="section" id="skills">
+      <div class="section__inner">
+        <p class="eyebrow"><span class="eyebrow__code">SEC. 03</span> Skills</p>
+        <h2 class="section__title">What I bring to the table.</h2>
+
+        <div class="strengths">
+          <div class="strengths__col reveal">
+            <h3 class="strengths__title">Academic Strengths</h3>
+            <ul class="strengths__list">
+              <li>Research</li>
+              <li>Writing</li>
+              <li>Critical Thinking</li>
+              <li>Time Management</li>
+            </ul>
+          </div>
+          <div class="strengths__col reveal reveal--delay-1">
+            <h3 class="strengths__title">Professional Strengths</h3>
+            <ul class="strengths__list">
+              <li>Communication</li>
+              <li>Leadership</li>
+              <li>Teamwork</li>
+              <li>Adaptability</li>
+            </ul>
+          </div>
+        </div>
+
+        <h3 class="skills__subhead">Technical Proficiency</h3>
+        <div class="skillbars">
+          <!-- data-level = percentage width for the animated bar -->
+          <div class="skillbar reveal" data-level="70">
+            <div class="skillbar__head">
+              <span class="skillbar__name">UI/UX Design</span>
+              <span class="skillbar__value">70%</span>
+            </div>
+            <div class="skillbar__track"><div class="skillbar__fill"></div></div>
+          </div>
+
+          <div class="skillbar reveal" data-level="65">
+            <div class="skillbar__head">
+              <span class="skillbar__name">System Development</span>
+              <span class="skillbar__value">65%</span>
+            </div>
+            <div class="skillbar__track"><div class="skillbar__fill"></div></div>
+          </div>
+
+          <div class="skillbar reveal" data-level="60">
+            <div class="skillbar__head">
+              <span class="skillbar__name">Data Management</span>
+              <span class="skillbar__value">60%</span>
+            </div>
+            <div class="skillbar__track"><div class="skillbar__fill"></div></div>
+          </div>
+
+          <div class="skillbar reveal" data-level="75">
+            <div class="skillbar__head">
+              <span class="skillbar__name">HTML</span>
+              <span class="skillbar__value">75%</span>
+            </div>
+            <div class="skillbar__track"><div class="skillbar__fill"></div></div>
+          </div>
+
+          <div class="skillbar reveal" data-level="70">
+            <div class="skillbar__head">
+              <span class="skillbar__name">CSS</span>
+              <span class="skillbar__value">70%</span>
+            </div>
+            <div class="skillbar__track"><div class="skillbar__fill"></div></div>
+          </div>
+
+          <div class="skillbar reveal" data-level="55">
+            <div class="skillbar__head">
+              <span class="skillbar__name">JavaScript</span>
+              <span class="skillbar__value">55%</span>
+            </div>
+            <div class="skillbar__track"><div class="skillbar__fill"></div></div>
+          </div>
+        </div>
+        <p class="skills__note">Percentages are placeholders — edit <code>data-level</code> in index.html to reflect your actual proficiency.</p>
+      </div>
+    </section>
+
+    <!-- ============ PROJECTS & ACHIEVEMENTS ============ -->
+    <section class="section section--muted" id="projects">
+      <div class="section__inner">
+        <p class="eyebrow"><span class="eyebrow__code">SEC. 04</span> Projects</p>
+        <h2 class="section__title">Selected academic work.</h2>
+
+        <div class="projects__grid">
+          <article class="project reveal">
+            <span class="project__tag">Academic Projects</span>
+            <h3 class="project__title">School-Based Academic Projects Project</h3>
+            <p class="project__text">Completed school-based assignments and presentations that strengthened my organization and communication skills.</p>
+            <ul class="project__stack">
+              <li>Academic Projects</li>
+              <li>Data Analysis</li>
+              <li>Presentation</li>
+            </ul>
+            <a href="#" class="project__link">View Project →</a>
+          </article>
+
+          <article class="project reveal reveal--delay-1">
+            <span class="project__tag">Portfolio Website</span>
+            <h3 class="project__title">Portfolio Website Project</h3>
+            <p class="project__text">A sleek personal website that highlights education, projects, and professional goals.</p>
+            <ul class="project__stack">
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+            </ul>
+            <a href="#" class="project__link">View Project →</a>
+          </article>
+
+          <article class="project reveal reveal--delay-2">
+            <span class="project__tag">Achievements</span>
+            <h3 class="project__title">Achievements</h3>
+            <p class="project__text">Recognized for dedication, punctuality, and consistent effort in educational and personal development activities.</p>
+            <ul class="project__stack">
+              <li>Wireframing</li>
+              <li>Prototyping</li>
+              <li>UI/UX</li>
+            </ul>
+            <a href="#" class="project__link">View Project →</a>
+          </article>
+
+
+
+
+        </div>  
+
+    <!-- ============ CONTACT ============ -->
+    <section class="section" id="contact">
+      <div class="section__inner">
+        <p class="eyebrow"><span class="eyebrow__code">SEC. 05</span> Contact</p>
+        <h2 class="section__title">Let's get in touch.</h2>
+
+        <div class="contact__grid">
+          <div class="contact__details reveal">
+            <ul class="contact__list">
+              <li>
+                <span class="contact__label">Email</span>
+                <a href="mailto:manampad.amira@dnsc.edu.ph" class="contact__value">manampad.amira@dnsc.edu.ph</a>
+              </li>
+              <li>
+                <span class="contact__label">Phone</span>
+                <a href="tel:+639639436906" class="contact__value">0963 943 6906</a>
+              </li>
+              <li>
+                <span class="contact__label">Location</span>
+                <span class="contact__value">Lupon Davao Oriental, Philippines</span>
+              </li>
+            </ul>
+          </div>
+
+          <form class="contact__form reveal reveal--delay-1" id="contactForm" novalidate>
+            <div class="field">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" autocomplete="name" required>
+            </div>
+            <div class="field">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" autocomplete="email" required>
+            </div>
+            <div class="field">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="5" required></textarea>
+            </div>
+            <button type="submit" class="btn btn--primary btn--block">Send Message</button>
+            <p class="field__status" id="formStatus" role="status" aria-live="polite"></p>
+          </form>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <div class="footer__inner">
+      <p class="footer__copy">© 2026 Amira B. Manampad. All rights reserved.</p>
+      <div class="footer__social">
+        <a href="#" class="footer__icon" aria-label="LinkedIn profile">
+          <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor" aria-hidden="true"><path d="M4.98 3.5C4.98 4.88 3.87 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1s2.48 1.12 2.48 2.5zM.24 8.25h4.5V23h-4.5V8.25zM8.5 8.25h4.31v2.02h.06c.6-1.13 2.06-2.32 4.24-2.32 4.54 0 5.38 2.99 5.38 6.87V23h-4.5v-6.4c0-1.53-.03-3.5-2.13-3.5-2.14 0-2.47 1.67-2.47 3.4V23h-4.5V8.25z"/></svg>
+        </a>
+        <a href="#" class="footer__icon" aria-label="GitHub profile">
+          <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor" aria-hidden="true"><path d="M12 .3a12 12 0 0 0-3.79 23.4c.6.1.82-.26.82-.58v-2.02c-3.34.73-4.04-1.61-4.04-1.61-.55-1.39-1.34-1.76-1.34-1.76-1.09-.75.08-.73.08-.73 1.2.08 1.84 1.24 1.84 1.24 1.07 1.84 2.81 1.3 3.5 1 .1-.78.42-1.31.76-1.61-2.67-.3-5.47-1.33-5.47-5.93 0-1.31.47-2.38 1.24-3.22-.12-.3-.54-1.52.12-3.18 0 0 1.01-.32 3.3 1.23a11.5 11.5 0 0 1 6 0c2.29-1.55 3.3-1.23 3.3-1.23.66 1.66.24 2.88.12 3.18.77.84 1.24 1.91 1.24 3.22 0 4.61-2.81 5.63-5.49 5.92.43.37.81 1.1.81 2.22v3.29c0 .32.22.69.83.58A12 12 0 0 0 12 .3z"/></svg>
+        </a>
+        <a href="#" class="footer__icon" aria-label="Facebook profile">
+          <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor" aria-hidden="true"><path d="M22 12a10 10 0 1 0-11.56 9.88v-6.99H7.9V12h2.54V9.8c0-2.5 1.49-3.89 3.78-3.89 1.1 0 2.24.2 2.24.2v2.46h-1.26c-1.24 0-1.63.77-1.63 1.56V12h2.78l-.44 2.89h-2.34v6.99A10 10 0 0 0 22 12z"/></svg>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
